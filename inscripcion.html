@@ -1,0 +1,82 @@
+    <main>
+        <section>
+            <h2 class="titol-formulari">Inscripció a la fira</h2>
+
+            <p>Omple el formulari següent per inscriure'ta la Badalona Tech 2027.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <h2 class="h2-inscripcion">Dades personals<h2>
+                    <div class="dues-columnes">
+                        <div>
+                            <label for="nom">Nom complet </label>
+                            <input type="text" id="nom" name="nom"placeholder="Nom i cognoms" required>
+                        </div>
+                        <div>
+                            <label for="correu">Correu electrònic </label>
+                            <input type="email" id="correu" name="correu"placeholder="nom@exemple.cat" required>
+                        </div>
+                        <div>
+                            <label for="telefon">Telèfon</label>
+                            <input type="tel" id="telefon" name="telefon"placeholder="600 000 000">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <h2 class="h2-inscripcion">Activitat i preferències</h2>
+                    <div class="dues-columnes">
+                        <div>
+                            <label for="activitat">Activitat</label>
+                            <select id="activitat" name="activitat" required>
+                                <option value="">Selecciona una activitat </option>
+                                <option value="robotica">Taller de robòtica</option>
+                                <option value="ciberseguretat">Introducció a la ciberseguretat</option>
+                                <option value="web">Crea la teva primera web</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label>Dia d'assistència </label>
+                            <div class="radios">
+                                <label>
+                                    <input type="radio" name="dia" value="dissabte" required> Dissabte
+                                </label>
+                                <label>
+                                    <input type="radio" name="dia" value="diumenge">Diumenge
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <label for="observacions">Observacions</label>
+                    <textarea id="observacions" name="observacions"
+                              rows="6"
+                              placeholder="Escriu aquí les teves observacions.."></textarea>
+                    <label class="casella">
+                        <input type="checkbox" name="informacio" >Rebre informació sobre futures activitats.
+                    </label>
+
+                    <label class="casella">
+                        <input type="checkbox" name="condicions"required>Acceptar les condicions de participació.
+                    </label>
+                </fieldset>
+                <div class="botons-formulari">
+                    <button type="submit">Enviar inscripció</button>
+                    <button type="reset" class="boto-reset">Netejar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://www.badalona.cat/" target="_blank">
+            <img src="imagenes/ajuntament.svg" alt="" class="icona-peu">
+            Ajuntament de Badalona
+            <img src="imagenes/enllac-extern.svg" alt="" class="icona-petita">
+        </a>
+        <a href="mailto:info@badalonatech.cat">
+            <img src="imagenes/correu.svg" alt="" class="icona-peu">
+            info@badalonatech.cat
+        </a>
+    </footer>
