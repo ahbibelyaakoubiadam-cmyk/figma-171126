@@ -59,3 +59,89 @@ h1 {
     margin-top: 30px;
     font-weight: bold;
 }
+.titol-formulari {
+    font-size: 29px;
+}
+
+fieldset {
+    border: 1px solid #1688ed;
+    border-radius: 8px;
+    padding: 18px;
+    margin: 22px 0;
+}
+
+.h2-inscripcion{
+    color: #092e68;
+    background-color: #d5eaff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.dues-columnes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dues-columnes div {
+    flex: 1;
+    min-width: 220px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+label span {
+    color: red;
+}
+
+.campo {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #9daec2;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.radios {
+    display: flex;
+    gap: 25px;
+    margin-top: 12px;
+}
+
+.radios label, .casella {
+    font-weight: normal;
+}
+
+.radios input, .casella input {
+    margin-right: 7px;
+}
+
+.botons-formulari {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0 10px;
+}
+
+button {
+    min-width: 150px;
+    background-color: #075bd5;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    padding: 11px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boto-reset {
+    background-color: white;
+    color: #075bd5;
+    border: 1px solid #075bd5;
+}
