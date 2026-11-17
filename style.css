@@ -145,3 +145,53 @@ button {
     color: #075bd5;
     border: 1px solid #075bd5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ADAPTACIO A MOBILS */
+
+@media (max-width: 750px) {
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .presentacio,
+    .columnes,
+    .contingut-activitat {
+        flex-direction: column;
+    }
+
+    .imatge-principal,
+    .contingut-activitat img {
+        width: 100%;
+    }
+
+    main {
+        width: 95%;
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+}
